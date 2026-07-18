@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 
-// Primary deploy: https://resume.johnberger.dev (Vercel, base '/')
-// GitHub Pages fallback: https://johnmberger.github.io/resume/
+// Custom domain (resume.johnberger.dev) serves from site root
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === 'true' ? '/resume/' : '/',
+  base: '/',
 })
