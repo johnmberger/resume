@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
-// Project Pages: https://johnmberger.github.io/resume/
-// For a custom domain / Vercel root deploy, set base: '/'
+// Primary deploy: https://resume.johnberger.dev (Vercel, base '/')
+// GitHub Pages fallback: https://johnmberger.github.io/resume/
 export default defineConfig({
   base: process.env.GITHUB_PAGES === 'true' ? '/resume/' : '/',
 })

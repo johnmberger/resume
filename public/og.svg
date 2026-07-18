@@ -71,7 +71,7 @@
     fill="rgba(28,36,32,0.45)"
     font-family="system-ui, Helvetica, sans-serif"
     font-size="22"
-  >johnmberger.com/resume</text>
+  >resume.johnberger.dev</text>
 
   <!-- Burger mark (same as favicon), scaled up -->
   <g transform="translate(980, 430) scale(3.4)">
